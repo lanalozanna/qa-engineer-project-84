@@ -58,21 +58,19 @@ bugreports:
     actual-result: |
       Отображаются все товары каталога
       
- - summary: |
+  - summary: |
       Не закрывается попап оформления заказа в корзине
-  environment: |
+    environment: |
       Google Chrome 109.0.5414.75 (Официальная сборка), (64 бит)
       ОС Windows 11 Home 21H2
-  steps-to-reproduce: |
+    steps-to-reproduce: |
       1. Зайти на главную страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
       2. Выбрать любой товар из каталога
       3. На карточке выбранного товара нажать на кнопку "Add to cart"
       4. Нажать на корзину в хэдере
       5. Нажать на кнопку "checkout"
       6. Нажать на крестик закрытия попапа
-  expected-result: |
+    expected-result: |
       Попап оформления заказа закрывается. Отображается содержимое корзины.
-  actual-result: |
-      На странице ничего не происходит.Попап не закрывается.
-      
-      
+    actual-result: |
+      На странице ничего не происходит. Попап не закрывается.
